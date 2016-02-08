@@ -564,7 +564,7 @@ function Cart(){
 ﻿  
 ﻿  me.currencyStringForPaypalCheckout = function( value ){
 ﻿  ﻿  if( me.currencySymbol() == "&#36;" ){
-﻿  ﻿  ﻿  return "$" + parseFloat( value ).toFixed(2);
+﻿  ﻿  ﻿  return "Bs" + parseFloat( value ).toFixed(2);
 ﻿  ﻿  } else {
 ﻿  ﻿  ﻿  return "" + parseFloat(value ).toFixed(2);
 ﻿  ﻿  }
@@ -686,7 +686,7 @@ function Cart(){
 ﻿  ﻿  ﻿  
 ﻿  ﻿  }
 ﻿  ﻿  
-﻿  ﻿  document.getElementById('couponcode').innerHTML = "Discount: $" + me.couponcode.toFixed(2) + " <br />";
+﻿  ﻿  document.getElementById('couponcode').innerHTML = "Discount: Bs" + me.couponcode.toFixed(2) + " <br />";
 ﻿  ﻿  me.update();
 ﻿  }
 ﻿  
