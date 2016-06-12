@@ -631,7 +631,7 @@ function Cart(){
 ﻿  
 ﻿  
 ﻿  /******************************************************
-﻿  ﻿  ﻿  ﻿  Cart Update managment
+﻿  ﻿  ﻿  ﻿  Cart Update management
 ﻿   ******************************************************/
 ﻿  
 ﻿  me.update = function() {
